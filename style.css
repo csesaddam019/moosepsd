@@ -1,0 +1,276 @@
+a:hover{text-decoration: none;}
+img{max-width: 100%}
+alignleft{float: left;margin-right: 15px}
+alignright{float: right;margin-left: 15px}
+aligncenter{float: none;margin: 0 auto}
+body{font-family: 'Roboto', sans-serif;}
+.logo{margin: 30px 0}
+.mainmenu_area{border-top: 1px solid #E9E9E9;border-bottom: #E9E9E9}
+.header_right{color: #888888;
+    font-size: 12px;
+    text-align: right;
+    margin-top: 35px;
+}
+.header_right p{}
+.header_right i{margin-right: 5px}
+.header_right i.fa-envelope{margin-left: 30px}
+.mainmenu_area ul#nav{margin: 0;padding: 0;list-style: none;
+}
+.mainmenu_area ul#nav li{float: left;border-left: 1px solid #E9E9E9;position: relative;}
+.mainmenu_area ul#nav li.border_last{border-right: 1px solid #E9E9E9}
+.mainmenu_area ul#nav li a{
+    color: #666666;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+    padding: 20px;
+
+}
+
+.mainmenu_area ul#nav li a:hover{color: #FA6C65;text-decoration: none;}
+.mainmenu_area ul#nav li:hover ul{display: block;}
+
+.mainmenu_area ul#nav li ul{position: absolute;
+    top: 61px;
+    margin: 0;
+    left: -1px;
+    background: #2D3134;
+    width: 190px;
+    padding: 0;
+    text-align: center;
+display: none;
+}
+.mainmenu_area ul#nav li ul li{border-bottom: 1px solid #000;border-left: 0px solid;display: block;
+float: none;
+}
+.mainmenu_area ul#nav li ul li a{color: #fff;padding: 15px 20px;display: block;}
+
+
+
+
+
+
+ul#social_profile{margin: 0;padding: 0;text-align: right;list-style: none;
+margin-top: 15px;
+}
+ul#social_profile li{display: inline;}
+ul#social_profile li a {
+    margin-left: 5px;
+    color: #BDBDBD;
+    border: 1px solid #BDBDBD;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+ul#social_profile li a:hover {
+color: #FA6C65;
+ border: 1px solid #FA6C65;
+ list-style: none;
+}
+
+
+}
+ul#social_profile li a:hover{}
+.promotions_area{border-bottom: 1px solid #E8E8E8;
+            padding: 40px 0;
+}
+.promotions{}
+.promotions h2{color: #616161;
+            font-size:28px;
+            font-weight: 700;
+            font-family: 'Roboto Slab', serif;
+            text-align: center;
+}
+.promotions h2 span{color: #fa6c65}
+
+.promotions p{color: #616161;
+    font-family: 'Roboto Slab', serif;
+font-weight:300;
+font-size: 18px;
+padding: 0 100px;
+text-align: center;
+}
+.square_promotion{margin-left:175px;
+margin-top: 30px;
+}
+.single_promotion{margin-left: 50px;margin-top: 20px;float: left;text-align: center;
+width: 140px;position: relative;
+padding-top: 5px;
+}
+
+.single_promotion:hover:before{width: 12px;
+                height: 7px;
+                content: "";
+                position: absolute;
+                left: 50%;
+                top:0;
+                display: block;
+                background:url(img/upper.png);
+                margin-left: -6px;
+
+
+}
+
+.single_promotion a{color: #bbbbbb;}
+.single_promotion i {
+
+    height: 100px;
+    width: 100px;
+    /* border-bottom: ; */
+    border: 2px solid #bbbbbb;
+    /* padding: 41px; */
+    border-radius: 60px;
+    font-size: 18px;
+    padding-top: 40px;
+}
+
+
+
+.single_promotion:hover a,.single_promotion:hover i,.single_promotion:hover h2{color: #fa6c65;border-color: #fa6c65}
+
+.single_promotion h2{ font-family: 'Roboto Condensed', serif;
+font-weight: 700;
+color: #bbbbbb;
+font-size: 15px;
+text-transform: uppercase;
+}
+.projects_area{border-bottom: 1px solid #E8E8E8;
+            padding: 40px 0;}
+.projects_area h2{
+    font-family: 'Roboto Slab', serif;
+    color: #848484;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+
+}
+.projects_area h2 span{color: #fa6c65;
+text-transform: uppercase;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 700;
+    padding-right: 15px;
+    letter-spacing: 1px;
+}
+
+.featured_projects_area{}
+.featured_projects{}
+.featured_projects h2{text-transform: uppercase;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 16px;
+    color: #fa6c65;
+}
+.featured_projects p.latest_blog{
+     font-family: 'Roboto', serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0 169px;
+    text-align: center;
+}
+.footer_top_area{background: #303538;color: #fff;padding: 50px 0;}
+.footer_top{}
+.single_widget h2{color: #cacaca;
+    font-size: 16px;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.single_widget p{font-family: 'Roboto', serif;
+         color: #cacaca;
+    font-weight: 300;
+    font-size: 14px;
+}
+.footer_area{background: #2D3134;color: #fff;
+padding: 20px 0;
+}
+.footer p{margin: 0;}
+
+.project_filter ul.project_menu{text-align: center;
+    
+
+}
+.project_filter ul.project_menu li{display: inline-block;
+     font-size: 14px;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #616161;
+    padding: 20px;
+    cursor: pointer;
+}
+.project_filter ul.project_menu li:hover{color:#fa6c65}
+
+.project_list{margin-left: -10px;}
+.project_list .single_project{margin-left: 7px;float: left;
+    width: 277px;
+    margin-bottom: 7px;
+    position: relative;
+
+}
+.project_detail{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: none;
+
+}
+.project_detail a {
+	z-index: 999;
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	background: #000;
+	padding: 9px;
+	top: 83px;
+	border-radius: 10px 18px;
+}
+.project_detail a i{}
+.project_overlay{background: #3483D2;
+     position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+
+}
+
+.single_project:hover .project_detail{display: block}
+
+.progress_bar .progress{border-radius: 0;}
+
+.progress_bar .progress-bar{background: #FA6C65}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
